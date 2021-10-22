@@ -32,7 +32,7 @@ def parse_course_time(course_name):
   time_index =  words_list.index(beginning_time_number[0])
   days_of_week = ParseCamelCase(words_list[time_index-1])
   time_ranges = [range(weekday_to_number_dict[x]*1440 + beginning_and_end_times[0], weekday_to_number_dict[x]*1440 + + beginning_and_end_times[1]) for x in days_of_week]
-  union = reduce((lambda x, y: x.union(y)), time_ranges, set([]))
+  union = reduce((lambda x, y: x.union(y)), time_ranges, set())
   return union
 
 
@@ -63,14 +63,16 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
     this_students_courses = student_to_courses_dict[student]
     this_student_vars = [model.getVarByName(student + "_" + course) for course in this_students_courses]
     cons = model.addConstr(sum(this_student_vars) <= 4) # student credit cap
-    # print(this_student_vars)
-    # print(cons)
     for course in this_students_courses:
-      conflicts = filter(lambda x: len(parse_course_time(x).intersection(parse_course_time(course))) != 0, this_students_courses)
-      print("conflicts")
-      print(set(conflicts))
+      conflicts = set(filter(lambda x: len(parse_course_time(x).intersection(parse_course_time(course))) != 0, this_students_courses))
+      # print(conflicts)
+      conflict_vars = [model.getVarByName(student + "_" + course) for course in conflicts] if len(conflicts) > 1 else []
+      model.addConstr(sum(conflict_vars) <= 1) # time conflict constraint
 
-
+  for course in course_to_students_dict:
+    this_course_potential_students = course_to_students_dict[course]
+    course_vars = [model.getVarByName(student + "_" + course) for student in this_course_potential_students]
+    print(course + ": " + str(len(course_vars)))
       
 
 model.setObjective(obj, GRB.MAXIMIZE)
