@@ -11,6 +11,7 @@ credit_cap = 4
 
 student_to_courses_dict = {}
 course_to_students_dict = {}
+course_capacities = {}
 
 def ParseCamelCase(string):
   return re.sub('([A-Z][a-z]*)', r' \1', re.sub('([A-Z]+)', r' \1', string)).split()
@@ -58,27 +59,25 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
         course_to_students_dict[course].append(student)
       else:
         course_to_students_dict[course] = [student]
+        course_capacities[course] = 35 # course capacities not given in the CSV, thus I'm using a default value
     
     model.update()
     this_students_courses = student_to_courses_dict[student]
     this_student_vars = [model.getVarByName(student + "_" + course) for course in this_students_courses]
-    cons = model.addConstr(sum(this_student_vars) <= 4) # student credit cap
+    cons = model.addConstr(sum(this_student_vars) <= credit_cap) # student credit cap
     for course in this_students_courses:
       conflicts = set(filter(lambda x: len(parse_course_time(x).intersection(parse_course_time(course))) != 0, this_students_courses))
-      # print(conflicts)
       conflict_vars = [model.getVarByName(student + "_" + course) for course in conflicts] if len(conflicts) > 1 else []
       model.addConstr(sum(conflict_vars) <= 1) # time conflict constraint
 
   for course in course_to_students_dict:
     this_course_potential_students = course_to_students_dict[course]
     course_vars = [model.getVarByName(student + "_" + course) for student in this_course_potential_students]
-    print(course + ": " + str(len(course_vars)))
-      
+    model.addConstr(sum(course_vars) <= course_capacities[course])
+    
 
 model.setObjective(obj, GRB.MAXIMIZE)
+model.optimize()
 
-
-
-# print(parse_course_time("CS 336 Algorithms TuTh 09:30 AM-10:50 AM"))
 
 
