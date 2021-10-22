@@ -80,4 +80,15 @@ model.setObjective(obj, GRB.MAXIMIZE)
 model.optimize()
 
 
+f = open("results.txt", "w")
+for student in student_to_courses_dict:
+  courses = student_to_courses_dict[student]
+  vars = [model.getVarByName(student + "_" + course) for course in courses]
+  [print(var.varName + ": " + str(var.x)) for var in vars]
+  [f.write(var.varName + ": " + str(var.x) + "\n") for var in vars]
+f.close()
+
+
+
+
 
