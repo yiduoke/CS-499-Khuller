@@ -16,9 +16,9 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
 
 def parse_class_time(class_name):
   words_list = class_name.split(" ")
-  time = re.findall("[0-9]+:[0-9]+", class_name)
-  print(time)
-  time_index =  words_list.index(time[0])
+  class_time = re.findall("[0-9]+:[0-9]+", class_name)
+  print(class_time)
+  time_index =  words_list.index(class_time[0])
   return words_list[time_index-1]
 
 
