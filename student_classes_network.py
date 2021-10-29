@@ -36,6 +36,9 @@ def parse_course_time(course_name):
   union = reduce((lambda x, y: x.union(y)), time_ranges, set())
   return union
 
+def must_have_x_of_top_y_courses(x, y, student_vars):
+  model.addConstr(sum(student_vars[:y]) >= x)
+
 
 with open('win22-requests-anon.csv', newline='') as csvfile:
   student_courses_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -64,7 +67,9 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
     model.update()
     this_students_courses = student_to_courses_dict[student]
     this_student_vars = [model.getVarByName(student + "_" + course) for course in this_students_courses]
-    cons = model.addConstr(sum(this_student_vars) <= credit_cap) # student credit cap
+    model.addConstr(sum(this_student_vars) <= credit_cap) # student credit cap
+
+    must_have_x_of_top_y_courses(min(1, len(this_student_vars)), 3, this_student_vars)
     for course in this_students_courses:
       conflicts = set(filter(lambda x: len(parse_course_time(x).intersection(parse_course_time(course))) != 0, this_students_courses))
       conflict_vars = [model.getVarByName(student + "_" + course) for course in conflicts] if len(conflicts) > 1 else []
@@ -73,7 +78,7 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
   for course in course_to_students_dict:
     this_course_potential_students = course_to_students_dict[course]
     course_vars = [model.getVarByName(student + "_" + course) for student in this_course_potential_students]
-    model.addConstr(sum(course_vars) <= course_capacities[course])
+    model.addConstr(sum(course_vars) <= course_capacities[course]) # course enrollment capacity constraint
     
 
 model.setObjective(obj, GRB.MAXIMIZE)
@@ -81,11 +86,16 @@ model.optimize()
 
 
 f = open("results.txt", "w")
+total_enrollment = 0
 for student in student_to_courses_dict:
   courses = student_to_courses_dict[student]
   vars = [model.getVarByName(student + "_" + course) for course in courses]
-  [print(var.varName + ": " + str(var.x)) for var in vars]
   [f.write(var.varName + ": " + str(var.x) + "\n") for var in vars]
+
+  student_got_courses = reduce((lambda current_sum, b: current_sum + b.x), vars, 0)
+  total_enrollment += student_got_courses
+  f.write("student " + student + " got " + str(student_got_courses) + " courses\n\n")
+f.write("total enrollment: " + str(total_enrollment))
 f.close()
 
 
