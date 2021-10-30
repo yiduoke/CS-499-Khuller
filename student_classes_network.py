@@ -69,7 +69,7 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
     this_student_vars = [model.getVarByName(student + "_" + course) for course in this_students_courses]
     model.addConstr(sum(this_student_vars) <= credit_cap) # student credit cap
 
-    must_have_x_of_top_y_courses(min(1, len(this_student_vars)), 3, this_student_vars)
+    # must_have_x_of_top_y_courses(min(2, len(this_student_vars)), 4, this_student_vars)
     for course in this_students_courses:
       conflicts = set(filter(lambda x: len(parse_course_time(x).intersection(parse_course_time(course))) != 0, this_students_courses))
       conflict_vars = [model.getVarByName(student + "_" + course) for course in conflicts] if len(conflicts) > 1 else []
@@ -87,15 +87,20 @@ model.optimize()
 
 f = open("results.txt", "w")
 total_enrollment = 0
+got_over_2_of_top_4 = 0
 for student in student_to_courses_dict:
   courses = student_to_courses_dict[student]
   vars = [model.getVarByName(student + "_" + course) for course in courses]
   [f.write(var.varName + ": " + str(var.x) + "\n") for var in vars]
 
-  student_got_courses = reduce((lambda current_sum, b: current_sum + b.x), vars, 0)
+  student_got_courses = reduce((lambda current_sum, b: current_sum + b.x), vars[:4], 0)
+  if (student_got_courses >= min(2,len(student_to_courses_dict[student]))):
+    got_over_2_of_top_4 += 1
   total_enrollment += student_got_courses
-  f.write("student " + student + " got " + str(student_got_courses) + " courses\n\n")
-f.write("total enrollment: " + str(total_enrollment))
+  f.write("student " + student + " got " + str(student_got_courses) + " courses from top 4\n\n")
+  
+f.write("total enrollment: " + str(total_enrollment) + "\n")
+f.write("number of students getting at least 2 of top 4 courses: " + str(got_over_2_of_top_4))
 f.close()
 
 
