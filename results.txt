@@ -1,7 +1,7 @@
 name001_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name001_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
+name001_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 name001_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-student name001 got 3.0 courses from top 4
+student name001 got 2.0 courses from top 4
 
 name002_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
 name002_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
@@ -11,77 +11,75 @@ name002_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
 student name002 got 3.0 courses from top 4
 
 name003_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-name003_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name003_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name003_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
-name003_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
+name003_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
 name003_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
-student name003 got 3.0 courses from top 4
+student name003 got 2.0 courses from top 4
 
 name004_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 1.0
-name004_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name004_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 student name004 got 2.0 courses from top 4
 
 name005_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name005_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
-name005_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
-name005_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
+name005_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 0.0
+name005_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: -0.0
 name005_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 0.0
-student name005 got 4.0 courses from top 4
+student name005 got 2.0 courses from top 4
 
 name006_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
-name006_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
+name006_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
 name006_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 1.0
 name006_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
 name006_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 0.0
-student name006 got 3.0 courses from top 4
+student name006 got 4.0 courses from top 4
 
-name007_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name007_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name007_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name007_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name007_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name007_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
+name007_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name007_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name007 got 4.0 courses from top 4
+student name007 got 2.0 courses from top 4
 
-name008_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name008_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name008_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name008_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name008_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name008_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
+name008_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name008_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name008 got 4.0 courses from top 4
+student name008 got 2.0 courses from top 4
 
-student name009 got 0 courses from top 4
+name010_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name010_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name010_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name010_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
+name010_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
+student name010 got 0.0 courses from top 4
 
-name010_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name010_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name010_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name010_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 0.0
-name010_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-student name010 got 3.0 courses from top 4
-
-name011_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
+name011_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
+name011_CS 450 Internet Security MW 09:30 AM-10:50 AM: 1.0
 name011_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name011_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
+name011_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
 name011_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-name011_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
-student name011 got 3.0 courses from top 4
+student name011 got 2.0 courses from top 4
 
 name012_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name012_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
-name012_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
+name012_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
 name012_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name012_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name012 got 3.0 courses from top 4
+student name012 got 2.0 courses from top 4
 
 name013_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
-name013_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 1.0
-student name013 got 2.0 courses from top 4
+name013_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
+student name013 got 1.0 courses from top 4
 
-name014_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name014_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: -0.0
 name014_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
-name014_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
-name014_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
+name014_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
+name014_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: -0.0
 name014_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
-student name014 got 3.0 courses from top 4
+student name014 got 0.0 courses from top 4
 
 name015_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
 student name015 got 1.0 courses from top 4
@@ -89,28 +87,28 @@ student name015 got 1.0 courses from top 4
 name016_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
 name016_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
 name016_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
-name016_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name016_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name016_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
-student name016 got 3.0 courses from top 4
+student name016 got 2.0 courses from top 4
 
-name017_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name017_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
-name017_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-student name017 got 3.0 courses from top 4
+name017_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name017_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
+name017_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
+student name017 got 1.0 courses from top 4
 
 name018_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name018_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-name018_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-name018_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name018_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: -0.0
+name018_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
+name018_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name018_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-student name018 got 3.0 courses from top 4
+student name018 got 1.0 courses from top 4
 
 name019_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
 name019_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
-name019_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name019_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
+name019_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name019_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
 name019_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name019 got 4.0 courses from top 4
+student name019 got 2.0 courses from top 4
 
 name020_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name020_CS 396 Kolmogorov Complexity TuTh 12:30 PM-01:50 PM: 1.0
@@ -119,30 +117,30 @@ student name020 got 3.0 courses from top 4
 
 name021_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
 name021_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name021_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name021_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name021_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name021_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name021_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 0.0
-student name021 got 4.0 courses from top 4
+student name021 got 2.0 courses from top 4
 
-name022_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name022_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name022_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
-name022_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name022_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-student name022 got 4.0 courses from top 4
+name022_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: -0.0
+name022_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
+student name022 got 1.0 courses from top 4
 
 name023_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
 name023_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name023_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name023_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
+name023_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: -0.0
+name023_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
 name023_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name023 got 4.0 courses from top 4
+student name023 got 2.0 courses from top 4
 
 name024_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
-name024_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
-name024_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
+name024_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 0.0
+name024_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
 name024_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
 name024_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name024 got 3.0 courses from top 4
+student name024 got 1.0 courses from top 4
 
 name025_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
 name025_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
@@ -151,10 +149,10 @@ student name025 got 3.0 courses from top 4
 
 name026_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name026_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name026_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name026_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
+name026_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name026_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 0.0
 name026_CS 496 Topics in Complexity MW 03:30 PM-04:50 PM: 0.0
-student name026 got 4.0 courses from top 4
+student name026 got 2.0 courses from top 4
 
 name027_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
 name027_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
@@ -162,39 +160,43 @@ name027_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM
 student name027 got 3.0 courses from top 4
 
 name028_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name028_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name028_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
 name028_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name028_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name028_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
-student name028 got 3.0 courses from top 4
+student name028 got 2.0 courses from top 4
 
-name029_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name029_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
-name029_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name029_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 0.0
-name029_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-student name029 got 3.0 courses from top 4
+name029_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name029_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
+name029_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name029_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 1.0
+name029_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name029 got 1.0 courses from top 4
 
-name030_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
+name030_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
 name030_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name030_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
-name030_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
+name030_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 0.0
+name030_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: -0.0
 name030_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-student name030 got 4.0 courses from top 4
+student name030 got 1.0 courses from top 4
 
 name031_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-student name031 got 1.0 courses from top 4
+name031_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
+name031_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name031_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
+name031_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+student name031 got 2.0 courses from top 4
 
-name032_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name032_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name032_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
 student name032 got 2.0 courses from top 4
 
 name033_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name033_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
 name033_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
-name033_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name033_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name033_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name033 got 4.0 courses from top 4
+student name033 got 3.0 courses from top 4
 
 name034_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name034_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
@@ -205,39 +207,39 @@ student name034 got 4.0 courses from top 4
 name035_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
 student name035 got 1.0 courses from top 4
 
-name036_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
+name036_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name036_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name036_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 1.0
-name036_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-student name036 got 4.0 courses from top 4
+name036_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: -0.0
+student name036 got 2.0 courses from top 4
 
 name037_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name037_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name037_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name037_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
+name037_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
+name037_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
 name037_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name037 got 4.0 courses from top 4
+student name037 got 2.0 courses from top 4
 
-name038_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name038_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name038_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name038_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
+name038_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name038_CS 348 AI MWF 11:00 AM-11:50 AM: -0.0
 name038_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
 name038_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 0.0
-student name038 got 3.0 courses from top 4
+student name038 got 0.0 courses from top 4
 
 name039_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name039_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name039_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name039_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name039_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name039_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
-student name039 got 4.0 courses from top 4
+student name039 got 3.0 courses from top 4
 
 name040_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name040_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name040_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name040_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name040_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
+name040_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name040_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
-student name040 got 4.0 courses from top 4
+student name040 got 2.0 courses from top 4
 
 name041_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
 student name041 got 1.0 courses from top 4
@@ -246,11 +248,11 @@ name042_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
 student name042 got 1.0 courses from top 4
 
 name043_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name043_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name043_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name043_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-name043_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
+name043_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
 name043_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
-student name043 got 3.0 courses from top 4
+student name043 got 2.0 courses from top 4
 
 name044_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name044_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
@@ -260,60 +262,58 @@ name044_CS 396 Advanced Algorithm Design through the Lens of Competitive Program
 student name044 got 3.0 courses from top 4
 
 name045_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name045_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name045_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name045_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name045_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name045_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 name045_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
-student name045 got 3.0 courses from top 4
+student name045 got 1.0 courses from top 4
 
 name046_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
 name046_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name046_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name046_CS 396 Generative Methods MW 08:00 AM-09:20 AM: -0.0
+name046_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name046_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name046_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
-student name046 got 3.0 courses from top 4
+student name046 got 2.0 courses from top 4
 
 name047_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name047_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
-name047_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-student name047 got 3.0 courses from top 4
+name047_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+student name047 got 2.0 courses from top 4
 
-name048_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name048_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name048_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
-name048_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-name048_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
-student name048 got 3.0 courses from top 4
+name048_CS 450 Internet Security MW 09:30 AM-10:50 AM: 1.0
+name048_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
+name048_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
+student name048 got 2.0 courses from top 4
 
-name049_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
+name049_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 name049_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-name049_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name049_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name049_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
 name049_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
-student name049 got 2.0 courses from top 4
+student name049 got 0.0 courses from top 4
 
 name050_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
 student name050 got 1.0 courses from top 4
 
 name051_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name051_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name051_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name051_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
+name051_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name051_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
 name051_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
-student name051 got 4.0 courses from top 4
+student name051 got 2.0 courses from top 4
 
-name052_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
-name052_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
-name052_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
-name052_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name052_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-student name052 got 3.0 courses from top 4
+name052_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name052_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
+name052_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
+name052_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
+student name052 got 0.0 courses from top 4
 
 name053_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
 name053_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
 name053_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
-name053_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-student name053 got 3.0 courses from top 4
+name053_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+student name053 got 2.0 courses from top 4
 
 name054_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
 name054_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
@@ -321,11 +321,11 @@ name054_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 student name054 got 2.0 courses from top 4
 
 name055_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name055_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name055_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name055_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
 name055_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
 name055_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name055 got 2.0 courses from top 4
+student name055 got 1.0 courses from top 4
 
 name056_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name056_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
@@ -345,12 +345,11 @@ name058_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50
 name058_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
 student name058 got 3.0 courses from top 4
 
+name059_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name059_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name059_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name059_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name059_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name059_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name059 got 4.0 courses from top 4
+name059_CS 450 Internet Security MW 09:30 AM-10:50 AM: 1.0
+name059_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
+student name059 got 2.0 courses from top 4
 
 name060_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name060_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
@@ -364,63 +363,63 @@ name061_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 1.0
 name061_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 student name061 got 3.0 courses from top 4
 
+name062_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name062_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-name062_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name062_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name062_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: -0.0
 name062_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name062 got 2.0 courses from top 4
+student name062 got 0.0 courses from top 4
 
 name063_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
 name063_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 student name063 got 2.0 courses from top 4
 
-name064_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
-name064_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name064_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-student name064 got 2.0 courses from top 4
+name064_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
+name064_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name064_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
+student name064 got 1.0 courses from top 4
 
 name065_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
 name065_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
 student name065 got 1.0 courses from top 4
 
-name066_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
+name066_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name066_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
 name066_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name066_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
+name066_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
 name066_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
-student name066 got 4.0 courses from top 4
+student name066 got 2.0 courses from top 4
 
 name067_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name067_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
+name067_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
 name067_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name067_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 0.0
+name067_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name067_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
 student name067 got 3.0 courses from top 4
 
 name068_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
 name068_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name068_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name068_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
+name068_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
+name068_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
 name068_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-student name068 got 4.0 courses from top 4
+student name068 got 2.0 courses from top 4
 
 name069_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
-name069_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name069_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
+name069_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name069_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
 name069_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
 name069_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
-student name069 got 3.0 courses from top 4
+student name069 got 4.0 courses from top 4
 
 name070_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
-name070_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name070_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 student name070 got 2.0 courses from top 4
 
 name071_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name071_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name071_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
+name071_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name071_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
 name071_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name071_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
-student name071 got 3.0 courses from top 4
+student name071 got 1.0 courses from top 4
 
 name072_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name072_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
@@ -429,51 +428,51 @@ name072_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name072_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 0.0
 student name072 got 3.0 courses from top 4
 
-name073_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name073_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name073_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name073_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
+name073_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
 name073_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
 name073_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
-student name073 got 3.0 courses from top 4
+student name073 got 2.0 courses from top 4
 
-name074_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name074_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name074_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 0.0
+name074_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name074_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name074_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 student name074 got 2.0 courses from top 4
 
 name075_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name075_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
-name075_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
-name075_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name075_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-student name075 got 3.0 courses from top 4
+name075_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: -0.0
+name075_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: -0.0
+name075_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name075_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+student name075 got 1.0 courses from top 4
 
 name076_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 1.0
-name076_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
+name076_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
 name076_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
 name076_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
 name076_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
-student name076 got 2.0 courses from top 4
+student name076 got 3.0 courses from top 4
 
 name077_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name077_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name077_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name077_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name077_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name077_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
 name077_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name077 got 3.0 courses from top 4
+student name077 got 1.0 courses from top 4
 
-name078_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name078_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name078_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name078_CS 339 Databases TuTh 11:00 AM-12:20 PM: -0.0
+name078_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name078_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
 name078_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-student name078 got 3.0 courses from top 4
+student name078 got 0.0 courses from top 4
 
 name079_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-name079_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name079_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name079_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name079_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name079_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
-student name079 got 3.0 courses from top 4
+name079_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
+name079_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
+student name079 got 0.0 courses from top 4
 
 name080_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
 name080_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
@@ -482,13 +481,13 @@ student name080 got 3.0 courses from top 4
 
 name081_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name081_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-name081_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name081_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name081_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
 name081_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
-student name081 got 3.0 courses from top 4
+student name081 got 2.0 courses from top 4
 
-name082_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
-student name082 got 1.0 courses from top 4
+name082_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
+student name082 got 0.0 courses from top 4
 
 name083_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name083_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
@@ -504,24 +503,25 @@ name084_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 1.0
 name084_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 student name084 got 4.0 courses from top 4
 
-name085_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name085_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name085_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
+name085_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+name085_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name085_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-student name085 got 3.0 courses from top 4
+name085_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name085_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
+student name085 got 0.0 courses from top 4
 
 name086_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name086_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
-name086_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name086_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name086_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 0.0
-student name086 got 4.0 courses from top 4
+name086_CS 348 AI MWF 11:00 AM-11:50 AM: -0.0
+name086_CS 339 Databases TuTh 11:00 AM-12:20 PM: -0.0
+name086_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name086 got 2.0 courses from top 4
 
 name087_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name087_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name087_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name087_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-student name087 got 4.0 courses from top 4
+name087_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
+name087_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+student name087 got 2.0 courses from top 4
 
 name088_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name088_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
@@ -536,29 +536,29 @@ name089_CS 496 The Design of Technological tools for Thinking and learning W 02:
 student name089 got 3.0 courses from top 4
 
 name090_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name090_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name090_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name090_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 0.0
-name090_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-student name090 got 3.0 courses from top 4
+name090_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name090_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name090_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name090_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
+student name090 got 1.0 courses from top 4
 
 name091_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name091_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-name091_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name091 got 2.0 courses from top 4
+name091_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
+student name091 got 3.0 courses from top 4
 
 name092_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name092_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name092_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name092_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
-student name092 got 4.0 courses from top 4
+name092_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
+student name092 got 3.0 courses from top 4
 
-name093_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name093_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name093_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name093_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
+name093_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name093_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name093_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
 name093_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name093 got 3.0 courses from top 4
+student name093 got 0.0 courses from top 4
 
 name094_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
 student name094 got 1.0 courses from top 4
@@ -566,27 +566,27 @@ student name094 got 1.0 courses from top 4
 name095_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
 name095_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
 name095_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
-name095_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
+name095_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 0.0
 name095_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
-student name095 got 4.0 courses from top 4
+student name095 got 3.0 courses from top 4
 
 name096_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name096_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
-name096_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name096_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-student name096 got 4.0 courses from top 4
+name096_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: -0.0
+name096_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name096 got 2.0 courses from top 4
 
 name097_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
 name097_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name097_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name097_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
+name097_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 0.0
 name097_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name097 got 4.0 courses from top 4
+student name097 got 3.0 courses from top 4
 
 name098_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name098_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name098_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-student name098 got 3.0 courses from top 4
+name098_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name098_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
+student name098 got 2.0 courses from top 4
 
 name099_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name099_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
@@ -598,29 +598,28 @@ name100_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
 student name100 got 2.0 courses from top 4
 
 name101_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
+name101_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name101_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name101_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name101_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name101 got 2.0 courses from top 4
+name101_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+student name101 got 1.0 courses from top 4
 
 name102_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name102_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name102_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name102_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name102_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name102_CS 348 AI MWF 11:00 AM-11:50 AM: -0.0
 name102_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
-student name102 got 4.0 courses from top 4
+student name102 got 3.0 courses from top 4
 
 name103_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
 name103_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name103_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 student name103 got 3.0 courses from top 4
 
-name104_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name104_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: -0.0
+name104_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name104_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
 name104_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-name104_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name104_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name104_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
-student name104 got 3.0 courses from top 4
+student name104 got 0.0 courses from top 4
 
 name105_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
 name105_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
@@ -633,17 +632,18 @@ name106_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 student name106 got 0.0 courses from top 4
 
 name107_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name107_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name107_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 0.0
-name107_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
+name107_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name107_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
+name107_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: -0.0
 name107_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 0.0
-student name107 got 3.0 courses from top 4
+student name107 got 2.0 courses from top 4
 
 name108_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name108_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name108_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name108_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
-student name108 got 4.0 courses from top 4
+name108_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name108_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
+name108_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name108_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
+student name108 got 1.0 courses from top 4
 
 name109_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name109_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
@@ -653,28 +653,28 @@ student name109 got 2.0 courses from top 4
 name110_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
 name110_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name110_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
-name110_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name110_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name110_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name110 got 3.0 courses from top 4
+student name110 got 2.0 courses from top 4
 
 name111_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name111_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
 name111_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 0.0
 student name111 got 2.0 courses from top 4
 
-name112_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name112_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name112_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
-name112_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name112_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
-student name112 got 4.0 courses from top 4
+name112_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+name112_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name112_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
+name112_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
+name112_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name112 got 0.0 courses from top 4
 
 name113_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
 name113_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name113_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name113_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
 name113_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
 name113_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name113 got 3.0 courses from top 4
+student name113 got 2.0 courses from top 4
 
 name114_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
 name114_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
@@ -688,12 +688,12 @@ name115_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name115_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
 student name115 got 3.0 courses from top 4
 
-name116_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name116_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name116_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 1.0
 name116_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
-name116_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
+name116_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
 name116_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name116 got 3.0 courses from top 4
+student name116 got 2.0 courses from top 4
 
 name117_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name117_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
@@ -701,9 +701,9 @@ student name117 got 2.0 courses from top 4
 
 name118_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
 name118_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name118_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name118_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
 name118_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name118 got 3.0 courses from top 4
+student name118 got 2.0 courses from top 4
 
 name119_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
 student name119 got 1.0 courses from top 4
@@ -711,37 +711,37 @@ student name119 got 1.0 courses from top 4
 name120_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name120_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name120_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name120_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name120_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name120_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name120 got 3.0 courses from top 4
+student name120 got 2.0 courses from top 4
 
 name121_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name121_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name121_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name121_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 0.0
+name121_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name121_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name121_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name121_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-student name121 got 3.0 courses from top 4
+student name121 got 2.0 courses from top 4
 
 name122_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name122_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
-name122_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name122_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
+name122_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name122_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
 name122_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 0.0
-student name122 got 4.0 courses from top 4
+student name122 got 2.0 courses from top 4
 
-name123_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name123_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name123_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name123_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name123_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name123_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
-student name123 got 4.0 courses from top 4
+name123_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+name123_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name123_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 0.0
+student name123 got 0.0 courses from top 4
 
-name124_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
+name124_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name124_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name124_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-name124_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
+name124_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
 name124_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
-student name124 got 3.0 courses from top 4
+student name124 got 1.0 courses from top 4
 
 name125_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
 name125_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
@@ -750,44 +750,44 @@ student name125 got 2.0 courses from top 4
 name126_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
 name126_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
 name126_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
-name126_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
+name126_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 0.0
 name126_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
-student name126 got 4.0 courses from top 4
+student name126 got 3.0 courses from top 4
 
 name127_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name127_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name127_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name127_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-name127_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name127_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name127_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
-student name127 got 3.0 courses from top 4
+student name127 got 1.0 courses from top 4
 
-name128_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name128_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name128_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name128_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
+name128_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+name128_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
+name128_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name128_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name128_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name128 got 4.0 courses from top 4
+student name128 got 0.0 courses from top 4
 
-name129_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
+name129_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name129_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
 name129_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name129_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
 name129_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
-student name129 got 2.0 courses from top 4
+student name129 got 1.0 courses from top 4
 
-name130_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
 name130_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
-name130_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
-name130_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name130_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 0.0
-student name130 got 3.0 courses from top 4
+name130_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: -0.0
+name130_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
+name130_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 0.0
+name130_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
+student name130 got 0.0 courses from top 4
 
+name131_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
 name131_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-name131_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name131_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name131_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name131_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-student name131 got 3.0 courses from top 4
+name131_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name131_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
+name131_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+student name131 got 0.0 courses from top 4
 
 name132_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name132_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
@@ -796,10 +796,10 @@ student name132 got 2.0 courses from top 4
 
 name133_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
 name133_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
-name133_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name133_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name133_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
 name133_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
-student name133 got 3.0 courses from top 4
+student name133 got 2.0 courses from top 4
 
 name134_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
 name134_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
@@ -808,38 +808,31 @@ name134_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 name134_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 0.0
 student name134 got 3.0 courses from top 4
 
-name135_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name135_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name135_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
+name135_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: -0.0
+name135_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name135_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
 name135_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-name135_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-student name135 got 3.0 courses from top 4
+name135_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name135 got 0.0 courses from top 4
 
-name136_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name136_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name136_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name136_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name136_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 0.0
-student name136 got 4.0 courses from top 4
+name136_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name136_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name136_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 0.0
+name136_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
+name136_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+student name136 got 2.0 courses from top 4
 
-name137_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
+name137_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name137_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
-name137_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name137_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-student name137 got 4.0 courses from top 4
+name137_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name137_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name137 got 1.0 courses from top 4
 
 name138_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
 name138_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name138_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name138_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-student name138 got 4.0 courses from top 4
-
-name139_CS 396 Kolmogorov Complexity TuTh 12:30 PM-01:50 PM: 1.0
-name139_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name139_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name139_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-name139_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-student name139 got 3.0 courses from top 4
+name138_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name138_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 0.0
+student name138 got 2.0 courses from top 4
 
 name140_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
 student name140 got 1.0 courses from top 4
@@ -847,64 +840,72 @@ student name140 got 1.0 courses from top 4
 name141_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
 name141_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name141_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
-name141_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
+name141_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: -0.0
 name141_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
-student name141 got 3.0 courses from top 4
+student name141 got 2.0 courses from top 4
 
 name142_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name142_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name142_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 student name142 got 2.0 courses from top 4
 
-name143_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name143_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name143_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name143_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name143_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name143_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 name143_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-student name143 got 4.0 courses from top 4
+student name143 got 3.0 courses from top 4
 
 name144_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 student name144 got 1.0 courses from top 4
 
 name145_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
 name145_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name145_CS 396 Generative Methods MW 08:00 AM-09:20 AM: -0.0
-name145_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
+name145_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
+name145_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 0.0
 name145_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name145 got 3.0 courses from top 4
+student name145 got 2.0 courses from top 4
 
 name146_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
 name146_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
 name146_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-name146_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name146 got 3.0 courses from top 4
+name146_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
+student name146 got 4.0 courses from top 4
 
 name147_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
-name147_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name147_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 name147_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-name147_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
-student name147 got 3.0 courses from top 4
+name147_CS 450 Internet Security MW 09:30 AM-10:50 AM: 1.0
+name147_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
+student name147 got 2.0 courses from top 4
+
+name139_CS 396 Kolmogorov Complexity TuTh 12:30 PM-01:50 PM: 1.0
+name139_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name139_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
+name139_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
+name139_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+student name139 got 4.0 courses from top 4
 
 name148_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
 name148_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name148_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name148_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name148_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name148_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name148_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
-student name148 got 4.0 courses from top 4
+student name148 got 2.0 courses from top 4
 
-name149_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name149_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name149_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name149_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name149_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
+name149_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name149_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-name149_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-student name149 got 3.0 courses from top 4
+name149_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name149 got 0.0 courses from top 4
 
-name150_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name150_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name150_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name150_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name150_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name150_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name150_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
 name150_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name150 got 3.0 courses from top 4
+student name150 got 0.0 courses from top 4
 
 name151_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
 name151_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
@@ -914,22 +915,22 @@ name151_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 student name151 got 3.0 courses from top 4
 
 name152_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name152_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name152_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
-student name152 got 3.0 courses from top 4
+name152_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name152_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
+student name152 got 1.0 courses from top 4
 
 name153_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name153_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name153_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name153_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name153_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name153_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name153_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-student name153 got 4.0 courses from top 4
+student name153 got 2.0 courses from top 4
 
 name154_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name154_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
 name154_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name154_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-name154_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 0.0
+name154_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 student name154 got 3.0 courses from top 4
 
 name155_CS 496 Topics in Complexity MW 03:30 PM-04:50 PM: 1.0
@@ -940,72 +941,72 @@ student name155 got 2.0 courses from top 4
 name156_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name156_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
 name156_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name156_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
+name156_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
 name156_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-student name156 got 4.0 courses from top 4
+student name156 got 3.0 courses from top 4
 
 name157_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
 name157_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name157_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name157_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name157_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name157_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name157_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-student name157 got 4.0 courses from top 4
+student name157 got 2.0 courses from top 4
 
-name158_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name158_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name158_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name158_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name158_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name158_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name158_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
 name158_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-student name158 got 4.0 courses from top 4
+student name158 got 2.0 courses from top 4
 
 name159_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name159_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name159_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name159_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name159_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name159_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
-student name159 got 3.0 courses from top 4
+student name159 got 2.0 courses from top 4
 
-name160_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name160_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name160_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
 name160_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
-name160_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
+name160_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: -0.0
 name160_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
 student name160 got 3.0 courses from top 4
 
 name161_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
 name161_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name161_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name161_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name161_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name161_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name161 got 3.0 courses from top 4
+student name161 got 2.0 courses from top 4
 
 name162_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
 name162_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
 name162_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name162_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name162_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name162_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
-student name162 got 4.0 courses from top 4
+student name162 got 3.0 courses from top 4
 
 name163_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name163_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name163_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
-name163_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name163_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
+name163_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
 name163_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
-student name163 got 4.0 courses from top 4
+student name163 got 2.0 courses from top 4
 
 name164_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
 name164_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-name164_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name164_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
+name164_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name164_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 0.0
 name164_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name164 got 3.0 courses from top 4
+student name164 got 1.0 courses from top 4
 
-name165_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-name165_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name165_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name165_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+name165_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
+name165_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name165_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 name165_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-student name165 got 3.0 courses from top 4
+student name165 got 0.0 courses from top 4
 
 name166_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name166_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
@@ -1014,44 +1015,43 @@ student name166 got 2.0 courses from top 4
 name167_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name167_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
 name167_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
-name167_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
+name167_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: -0.0
 name167_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 0.0
-student name167 got 4.0 courses from top 4
+student name167 got 3.0 courses from top 4
 
 name168_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 student name168 got 1.0 courses from top 4
 
 name169_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
 name169_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-name169_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name169_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name169_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 name169_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
-student name169 got 2.0 courses from top 4
+student name169 got 1.0 courses from top 4
 
 name170_CS 496 Topics in Complexity MW 03:30 PM-04:50 PM: 1.0
 student name170 got 1.0 courses from top 4
 
 name171_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
 name171_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name171_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
-name171_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name171_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
+name171_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 student name171 got 3.0 courses from top 4
 
-name172_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name172_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name172_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 student name172 got 1.0 courses from top 4
 
 name173_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name173_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-name173_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-student name173 got 2.0 courses from top 4
+name173_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+student name173 got 1.0 courses from top 4
 
-name174_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name174_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name174_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-name174_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name174_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-student name174 got 3.0 courses from top 4
+name174_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
+name174_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name174_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
+student name174 got 1.0 courses from top 4
 
 name175_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 student name175 got 1.0 courses from top 4
@@ -1061,10 +1061,10 @@ name176_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name176_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 student name176 got 3.0 courses from top 4
 
-name177_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 0.0
-name177_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
+name177_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
+name177_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
 name177_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
-name177_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name177_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name177_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 0.0
 student name177 got 3.0 courses from top 4
 
@@ -1089,69 +1089,69 @@ name181_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 student name181 got 2.0 courses from top 4
 
 name182_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name182_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name182_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 student name182 got 2.0 courses from top 4
 
 name183_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
 name183_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
 student name183 got 2.0 courses from top 4
 
-name184_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name184_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name184_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name184_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-name184_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
+name184_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
 name184_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
-student name184 got 3.0 courses from top 4
+student name184 got 2.0 courses from top 4
 
 name185_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
 name185_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 student name185 got 2.0 courses from top 4
 
-name186_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
+name186_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
 name186_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name186_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name186_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
+name186_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name186_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
 name186_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 0.0
-student name186 got 4.0 courses from top 4
+student name186 got 1.0 courses from top 4
 
 name187_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
 name187_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
-name187_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
-name187_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name187_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+name187_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name187_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-student name187 got 4.0 courses from top 4
+student name187 got 2.0 courses from top 4
 
 name188_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
 name188_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
-name188_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name188_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name188_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name188_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name188_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-student name188 got 4.0 courses from top 4
+student name188 got 2.0 courses from top 4
 
 name189_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
 name189_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-name189_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
-name189_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name189_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
+name189_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: -0.0
 name189_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
-student name189 got 3.0 courses from top 4
+student name189 got 1.0 courses from top 4
 
 name190_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name190_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name190_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name190_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name190_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name190_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
 name190_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 0.0
-student name190 got 4.0 courses from top 4
+student name190 got 2.0 courses from top 4
 
-name191_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name191_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-student name191 got 2.0 courses from top 4
+name191_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name191_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+student name191 got 1.0 courses from top 4
 
 name192_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name192_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name192_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 student name192 got 2.0 courses from top 4
 
 name193_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-name193_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name193_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 student name193 got 2.0 courses from top 4
 
 name194_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
@@ -1168,49 +1168,49 @@ name195_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name195_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 0.0
 student name195 got 3.0 courses from top 4
 
-name196_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name196_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
+name196_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name196_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
 name196_CS 496 The Design of Technological tools for Thinking and learning W 02:00 PM-04:50 PM: 1.0
-name196_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-student name196 got 2.0 courses from top 4
+name196_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
+student name196 got 4.0 courses from top 4
 
-name197_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
-name197_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
-student name197 got 2.0 courses from top 4
+name197_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name197_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
+student name197 got 1.0 courses from top 4
 
 name198_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name198_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name198_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
-name198_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name198_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-student name198 got 3.0 courses from top 4
+name198_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
+name198_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
+student name198 got 2.0 courses from top 4
 
-name199_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name199_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name199_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
-name199_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
-name199_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-student name199 got 4.0 courses from top 4
+name199_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
+name199_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 0.0
+student name199 got 2.0 courses from top 4
 
-name200_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name200_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
+name200_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name200_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
 name200_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
-student name200 got 2.0 courses from top 4
+student name200 got 1.0 courses from top 4
 
 name201_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
 name201_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
-name201_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-student name201 got 2.0 courses from top 4
+name201_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+student name201 got 1.0 courses from top 4
 
-name202_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name202_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name202_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
 name202_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
-name202_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-student name202 got 4.0 courses from top 4
+name202_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+student name202 got 3.0 courses from top 4
 
 name203_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
-name203_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name203_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 1.0
-student name203 got 3.0 courses from top 4
+name203_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name203_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
+student name203 got 1.0 courses from top 4
 
 name204_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
 name204_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 1.0
@@ -1222,19 +1222,19 @@ name205_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.
 name205_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
 student name205 got 2.0 courses from top 4
 
-name206_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
-name206_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
+name206_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name206_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
 name206_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
-name206_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
+name206_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: -0.0
 name206_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
-student name206 got 3.0 courses from top 4
+student name206 got 1.0 courses from top 4
 
 name207_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
-name207_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name207_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
 name207_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-name207_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name207_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 0.0
-student name207 got 3.0 courses from top 4
+name207_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
+name207_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name207 got 1.0 courses from top 4
 
 name208_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name208_CS 396 Modeling Relationships with Causal Inference MW 05:00 PM-06:20 PM: 1.0
@@ -1256,9 +1256,9 @@ student name210 got 1.0 courses from top 4
 name211_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name211_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name211_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-name211_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
+name211_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
 name211_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 0.0
-student name211 got 3.0 courses from top 4
+student name211 got 2.0 courses from top 4
 
 name212_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
 name212_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
@@ -1266,58 +1266,58 @@ student name212 got 2.0 courses from top 4
 
 name213_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name213_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
-name213_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name213_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name213_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
 name213_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
-student name213 got 4.0 courses from top 4
+student name213 got 3.0 courses from top 4
 
 name214_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
 name214_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name214_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
-name214_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
+name214_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 0.0
 name214_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 0.0
-student name214 got 3.0 courses from top 4
+student name214 got 2.0 courses from top 4
 
 name215_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name215_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
 name215_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name215_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: -0.0
+name215_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name215_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 student name215 got 2.0 courses from top 4
 
 name216_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
 name216_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
-name216_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name216_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name216_CS 351.2 Intermediate CG TuTh 02:00 PM-03:20 PM: 1.0
 name216_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 0.0
-student name216 got 4.0 courses from top 4
+student name216 got 3.0 courses from top 4
 
-name217_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 1.0
+name217_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name217_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 1.0
-student name217 got 2.0 courses from top 4
+student name217 got 1.0 courses from top 4
 
 name218_CS 496 Distributed Systems in Challenging Environments MW 03:30 PM-04:50 PM: 1.0
 student name218 got 1.0 courses from top 4
 
 name219_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 1.0
 name219_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name219_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: -0.0
+name219_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name219_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name219_CS 396/496 Interactive Information Visualization TuTh 03:30 PM-04:50 PM: 0.0
 student name219 got 2.0 courses from top 4
 
 name220_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
 name220_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name220_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
+name220_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 0.0
 name220_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
 name220_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 0.0
-student name220 got 3.0 courses from top 4
+student name220 got 2.0 courses from top 4
 
 name221_CS 340 Networking TuTh 09:30 AM-10:50 AM: 1.0
 name221_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
 name221_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
-name221_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
-student name221 got 4.0 courses from top 4
+name221_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 0.0
+student name221 got 3.0 courses from top 4
 
 name222_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 1.0
 name222_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
@@ -1326,34 +1326,78 @@ name222_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
 name222_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
 student name222 got 2.0 courses from top 4
 
-name223_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name223_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name223_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name223_CS 349 ML MW 12:30 PM-01:50 PM: 1.0
+name223_CS 349 ML MW 12:30 PM-01:50 PM: 0.0
 name223_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
 name223_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-student name223 got 3.0 courses from top 4
+student name223 got 2.0 courses from top 4
 
-name224_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 1.0
+name224_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
 name224_CS 338 Practicum in Intelligent Information Systems TuTh 11:00 AM-12:20 PM: 1.0
-name224_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 1.0
+name224_CS 397/497 INNOVATION LAB Building Technologies for the Law Tu 02:30 PM-05:30 PM: 0.0
 name224_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name224_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
-student name224 got 3.0 courses from top 4
+student name224 got 2.0 courses from top 4
 
 name225_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
 name225_CS 322 Compilers TuTh 05:00 PM-06:20 PM: 1.0
-name225_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 1.0
-name225_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name225_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
+name225_CS 339 Databases TuTh 11:00 AM-12:20 PM: 0.0
 name225_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
-student name225 got 4.0 courses from top 4
+student name225 got 2.0 courses from top 4
 
 name226_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: 1.0
 name226_CS 371 Knowledge Representation and Reasoning TuTh 02:00 PM-03:20 PM: 1.0
-name226_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
-name226_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 1.0
-name226_CS 396 Intro to Web Development MWF 08:00 AM-08:50 AM: 0.0
-student name226 got 4.0 courses from top 4
+name226_CS 348 AI MWF 11:00 AM-11:50 AM: 0.0
+name226_CS 331 Intro. Computation Phototography MW 12:30 PM-01:50 PM: 0.0
+name226_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+student name226 got 2.0 courses from top 4
 
-total enrollment: 647.0
-number of students getting at least 2 of top 4 courses: 222
-total number of student: 226
+name227_CS 396 Communicating Computer Science MW 05:00 PM-06:20 PM: 1.0
+name227_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 0.0
+name227_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
+student name227 got 2.0 courses from top 4
+
+name228_CS 397/497 Data Privacy TuTh 03:30 PM-04:50 PM: 1.0
+student name228 got 1.0 courses from top 4
+
+name229_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name229_CS 396 Social Networks Analysis Th 06:30 PM-09:20 PM: 0.0
+student name229 got 1.0 courses from top 4
+
+name230_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
+name230_CS 496 Visualization for Scientific Communication W 03:00 PM-05:50 PM: 1.0
+name230_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 0.0
+student name230 got 2.0 courses from top 4
+
+name231_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
+name231_CS 377 Game Development Studio MW 06:30 PM-07:50 PM: -0.0
+name231_CS 340 Networking TuTh 09:30 AM-10:50 AM: 0.0
+name231_CS 343 Operating Systems TuTh 09:30 AM-10:50 AM: 0.0
+name231_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 0.0
+student name231 got 1.0 courses from top 4
+
+name232_CS 348 AI MWF 11:00 AM-11:50 AM: 1.0
+name232_CS 336 Algorithms TuTh 09:30 AM-10:50 AM: 1.0
+name232_CS 396 Advanced Algorithm Design through the Lens of Competitive Programming F 02:00 PM-04:50 PM: 1.0
+student name232 got 3.0 courses from top 4
+
+name233_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 1.0
+name233_CS 396 Generative Methods MW 08:00 AM-09:20 AM: 0.0
+student name233 got 1.0 courses from top 4
+
+name234_CS 496 Graduate Algorithms TuTh 11:00 AM-12:20 PM: 1.0
+name234_CS 496 Topics in Complexity MW 03:30 PM-04:50 PM: 1.0
+student name234 got 2.0 courses from top 4
+
+name235_CS 321 Programming languages TuTh 03:30 PM-04:50 PM: 1.0
+name235_CS 339 Databases TuTh 11:00 AM-12:20 PM: 1.0
+name235_CS 450 Internet Security MW 09:30 AM-10:50 AM: 1.0
+name235_CS 396 Intro to Web Development MW 12:30 PM-01:50 PM: 0.0
+name235_CS 396/496 Advanced Topics in Modern Cryptography TuTh 09:30 AM-10:50 AM: 0.0
+student name235 got 3.0 courses from top 4
+
+total enrollment: 436.0
+number of students getting at least 2 of top 4 courses: 171
+total number of student: 234

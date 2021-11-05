@@ -2,17 +2,23 @@ from gurobipy import *
 from functools import reduce
 import csv
 import re
+import json
 
 
 model = Model()
 obj = LinExpr()
+obj2 = LinExpr()
+fairness_constraint = 0
 
 credit_cap = 4
 
 student_to_courses_dict = {}
 course_to_students_dict = {}
+course_to_MS_students_dict = {}
 course_capacities = {}
 course_MS_capacities = {}
+
+course_stats = {}
 
 def ParseCamelCase(string):
   return re.sub('([A-Z][a-z]*)', r' \1', re.sub('([A-Z]+)', r' \1', string)).split()
@@ -38,9 +44,10 @@ def parse_course_time(course_name):
   return union
 
 def must_have_x_of_top_y_courses(x, y, student_vars):
-  model.addConstr(sum(student_vars[:y]) >= x)
+  model.addConstr(sum(student_vars[:y]) >= min(len(student_vars), x))
 
 with open('win22-course-data.csv', newline='') as csvfile:
+  y = 4 # top y of student preferences
   courses_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
   for row in courses_reader:
     if (row[0] == "SIS Number"): # skip header row
@@ -48,7 +55,6 @@ with open('win22-course-data.csv', newline='') as csvfile:
     course = row[5]
     course_capacities[course] = int(row[1])
     course_MS_capacities[course] = int(row[2][:-1])/100 * course_capacities[course]
-    print(course_MS_capacities[course])
     
 
 with open('win22-requests-anon.csv', newline='') as csvfile:
@@ -61,18 +67,33 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
     student_to_courses_dict[student] = []
     for i in range(1,6):
       course = row[i]
-      if (course == "0"): # no class chosen
+      if (len(course) < 2): # no class chosen
         continue
 
       x = model.addVar(vtype=GRB.BINARY, name=student + "_" + course)
       obj.addTerms(5-i, x) # the higher they rank the course, the higher the coefficient
+      if (i <= y):
+        obj2.addTerms(1, x)
 
       student_to_courses_dict[student].append(course)
       
+      if (row[8][:2] == "MS"):
+        if course in course_to_MS_students_dict:
+          course_to_MS_students_dict[course].append(student)
+        else:
+          course_to_MS_students_dict[course] = [student]
+
       if course in course_to_students_dict:
-        course_to_students_dict[course].append(student)
+          course_to_students_dict[course].append(student)
+          if (i in course_stats[course]):
+            course_stats[course][i] += 1
+          else:
+            course_stats[course][i] = 1
       else:
         course_to_students_dict[course] = [student]
+        course_stats[course] = {}
+        course_stats[course][i] = 1
+        
     
     model.update()
     this_students_courses = student_to_courses_dict[student]
@@ -87,20 +108,29 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
 
   for course in course_to_students_dict:
     this_course_potential_students = course_to_students_dict[course]
+    this_course_potential_MS_students = course_to_MS_students_dict[course]
     course_vars = [model.getVarByName(student + "_" + course) for student in this_course_potential_students]
+    course_MS_vars = [model.getVarByName(student + "_" + course) for student in this_course_potential_MS_students]
     model.addConstr(sum(course_vars) <= course_capacities[course]) # course enrollment capacity constraint
+    model.addConstr(sum(course_MS_vars) <= course_MS_capacities[course]) # course MS enrollment capacity constraint
     
 
-model.setObjective(obj, GRB.MAXIMIZE)
+model.setObjectiveN(obj, 0, 1)
+# model.setObjectiveN(obj2, 1, 0)
+model.ModelSense = GRB.MAXIMIZE
 model.optimize()
 
 
 f = open("results.txt", "w")
 total_enrollment = 0
 got_2_of_top_4 = 0
+assignments = {}
 for student in student_to_courses_dict:
+  assignments[student] = {}
   courses = student_to_courses_dict[student]
   vars = [model.getVarByName(student + "_" + course) for course in courses]
+  for course in courses:
+    assignments[student][course] = int(model.getVarByName(student + "_" + course).x)
   [f.write(var.varName + ": " + str(var.x) + "\n") for var in vars]
 
   student_got_courses = reduce((lambda current_sum, b: current_sum + b.x), vars[:4], 0)
@@ -114,7 +144,11 @@ f.write("number of students getting at least 2 of top 4 courses: " + str(got_2_o
 f.write("total number of student: " + str(len(student_to_courses_dict)))
 f.close()
 
+f = open("course_stats.json", "w")
+json.dump(course_stats, f)
+f.close()
 
-
-
+f = open("assignments.json", "w")
+json.dump(assignments, f)
+f.close()
 
