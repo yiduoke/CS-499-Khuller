@@ -12,6 +12,7 @@ credit_cap = 4
 student_to_courses_dict = {}
 course_to_students_dict = {}
 course_capacities = {}
+course_MS_capacities = {}
 
 def ParseCamelCase(string):
   return re.sub('([A-Z][a-z]*)', r' \1', re.sub('([A-Z]+)', r' \1', string)).split()
@@ -39,6 +40,16 @@ def parse_course_time(course_name):
 def must_have_x_of_top_y_courses(x, y, student_vars):
   model.addConstr(sum(student_vars[:y]) >= x)
 
+with open('win22-course-data.csv', newline='') as csvfile:
+  courses_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+  for row in courses_reader:
+    if (row[0] == "SIS Number"): # skip header row
+      continue
+    course = row[5]
+    course_capacities[course] = int(row[1])
+    course_MS_capacities[course] = int(row[2][:-1])/100 * course_capacities[course]
+    print(course_MS_capacities[course])
+    
 
 with open('win22-requests-anon.csv', newline='') as csvfile:
   student_courses_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -62,7 +73,6 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
         course_to_students_dict[course].append(student)
       else:
         course_to_students_dict[course] = [student]
-        course_capacities[course] = 35 # course capacities not given in the CSV, thus I'm using a default value
     
     model.update()
     this_students_courses = student_to_courses_dict[student]
@@ -87,7 +97,7 @@ model.optimize()
 
 f = open("results.txt", "w")
 total_enrollment = 0
-got_over_2_of_top_4 = 0
+got_2_of_top_4 = 0
 for student in student_to_courses_dict:
   courses = student_to_courses_dict[student]
   vars = [model.getVarByName(student + "_" + course) for course in courses]
@@ -95,12 +105,13 @@ for student in student_to_courses_dict:
 
   student_got_courses = reduce((lambda current_sum, b: current_sum + b.x), vars[:4], 0)
   if (student_got_courses >= min(2,len(student_to_courses_dict[student]))):
-    got_over_2_of_top_4 += 1
+    got_2_of_top_4 += 1
   total_enrollment += student_got_courses
   f.write("student " + student + " got " + str(student_got_courses) + " courses from top 4\n\n")
   
 f.write("total enrollment: " + str(total_enrollment) + "\n")
-f.write("number of students getting at least 2 of top 4 courses: " + str(got_over_2_of_top_4))
+f.write("number of students getting at least 2 of top 4 courses: " + str(got_2_of_top_4) + "\n")
+f.write("total number of student: " + str(len(student_to_courses_dict)))
 f.close()
 
 
