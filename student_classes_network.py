@@ -7,16 +7,26 @@ import json
 
 model = Model()
 obj = LinExpr()
-obj2 = LinExpr()
-fairness_constraint = 0
 
 credit_cap = 4
 
+priority_1 = 4
+priority_2 = 3
+priority_3 = 2
+priorities = {"CS PhD": priority_1, "CS MS": priority_1, "TSB PhD": priority_1, "CSLS PhD": priority_1, "CE PhD": priority_1, 
+              "CE MS": priority_2, "MSR MS": priority_2, "MSR MSR": priority_2, "Robotics	MS": priority_2, "Robotics	MSR": priority_2, "MS Robotics MS Robotics": priority_2,
+              "MIST": priority_3, "EE MS": priority_3, "EE PhD": priority_3, "MSIT MSIT": priority_3}
+
 student_to_courses_dict = {}
+student_to_vars_dict = {}
+student_to_csv_rows_dict = {}
+student_to_major_dict = {}
+student_to_degree_dict = {}
 course_to_students_dict = {}
 course_to_MS_students_dict = {}
 course_capacities = {}
 course_MS_capacities = {}
+dummy_vars = []
 
 course_stats = {}
 
@@ -59,21 +69,29 @@ with open('win22-course-data.csv', newline='') as csvfile:
 
 with open('win22-requests-anon.csv', newline='') as csvfile:
   student_courses_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+  row_number = -1
   for row in student_courses_reader:
-    if (row[0] == "Name"): # skip header row
+    row_number += 1
+    if (row[0] == "Name" or len(row[1]) < 2): # skip header row or if row empty
       continue
 
     student = row[0]
     student_to_courses_dict[student] = []
+    student_to_csv_rows_dict[student] = row_number
     for i in range(1,6):
       course = row[i]
-      if (len(course) < 2): # no class chosen
+      if (len(course) < 2): # skip when blank row (no class chosen)
         continue
 
       x = model.addVar(vtype=GRB.BINARY, name=student + "_" + course)
-      obj.addTerms(5-i, x) # the higher they rank the course, the higher the coefficient
-      if (i <= y):
-        obj2.addTerms(1, x)
+      major = row[7]
+      degree = row[8]
+
+      student_to_major_dict[student] = major
+      student_to_degree_dict[student] = degree
+      priority_dict_key = major + " " + degree
+      student_priority = priorities[priority_dict_key] if (priority_dict_key in priorities) else 1
+      obj.addTerms(student_priority * (6-i), x)
 
       student_to_courses_dict[student].append(course)
       
@@ -94,13 +112,20 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
         course_stats[course] = {}
         course_stats[course][i] = 1
         
-    
+    dummy_var = model.addVar(vtype=GRB.BINARY, name=student + "_dummy") # dummy variable to facilitate fairness
+    obj.addTerms(0.5, dummy_var)
+    dummy_vars.append(dummy_var)
+
     model.update()
     this_students_courses = student_to_courses_dict[student]
     this_student_vars = [model.getVarByName(student + "_" + course) for course in this_students_courses]
-    model.addConstr(sum(this_student_vars) <= credit_cap) # student credit cap
+    student_to_vars_dict[student] = this_student_vars
+    model.addConstr(sum(this_student_vars) + dummy_var <= credit_cap + 0.5) # student credit cap
 
-    # must_have_x_of_top_y_courses(min(2, len(this_student_vars)), 4, this_student_vars)
+    # want CS students to get at least 2 of their top 4 classes
+    if (major == "CS"): 
+      model.addConstr(sum(this_student_vars[:4]) + dummy_var >= min(len(this_student_vars), 2))
+       
     for course in this_students_courses:
       conflicts = set(filter(lambda x: len(parse_course_time(x).intersection(parse_course_time(course))) != 0, this_students_courses))
       conflict_vars = [model.getVarByName(student + "_" + course) for course in conflicts] if len(conflicts) > 1 else []
@@ -113,42 +138,29 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
     course_MS_vars = [model.getVarByName(student + "_" + course) for student in this_course_potential_MS_students]
     model.addConstr(sum(course_vars) <= course_capacities[course]) # course enrollment capacity constraint
     model.addConstr(sum(course_MS_vars) <= course_MS_capacities[course]) # course MS enrollment capacity constraint
+  
+  model.addConstr(sum(dummy_vars) <= 0.08 * len(dummy_vars)) # controlling how lax the fairness constraint is
     
-
 model.setObjectiveN(obj, 0, 1)
-# model.setObjectiveN(obj2, 1, 0)
 model.ModelSense = GRB.MAXIMIZE
 model.optimize()
 
-
-f = open("results.txt", "w")
-total_enrollment = 0
-got_2_of_top_4 = 0
-assignments = {}
-for student in student_to_courses_dict:
-  assignments[student] = {}
-  courses = student_to_courses_dict[student]
-  vars = [model.getVarByName(student + "_" + course) for course in courses]
-  for course in courses:
-    assignments[student][course] = int(model.getVarByName(student + "_" + course).x)
-  [f.write(var.varName + ": " + str(var.x) + "\n") for var in vars]
-
-  student_got_courses = reduce((lambda current_sum, b: current_sum + b.x), vars[:4], 0)
-  if (student_got_courses >= min(2,len(student_to_courses_dict[student]))):
-    got_2_of_top_4 += 1
-  total_enrollment += student_got_courses
-  f.write("student " + student + " got " + str(student_got_courses) + " courses from top 4\n\n")
-  
-f.write("total enrollment: " + str(total_enrollment) + "\n")
-f.write("number of students getting at least 2 of top 4 courses: " + str(got_2_of_top_4) + "\n")
-f.write("total number of student: " + str(len(student_to_courses_dict)))
-f.close()
-
-f = open("course_stats.json", "w")
-json.dump(course_stats, f)
-f.close()
-
-f = open("assignments.json", "w")
-json.dump(assignments, f)
-f.close()
-
+with open('win22-requests-anon.csv', newline='') as csvfile, open('assignments.csv', 'w', newline='') as assignments_file:
+  student_courses_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+  assignment_writer = csv.writer(assignments_file, delimiter=',', quotechar='|')
+  row_number = -1
+  for row in student_courses_reader:
+    row_number += 1
+    if (row_number == 0):
+      assignment_writer.writerow(row + ["got first choice?", "got second choice?", "got third choice?", "got fourth choice?", "got fifth choice?"])
+    else:
+      student = row[0]
+      if (student not in student_to_courses_dict): continue
+      courses = student_to_courses_dict[student]
+      vars = [model.getVarByName(student + "_" + course) for course in courses]
+      assignments = [int(model.getVarByName(student + "_" + course).x) for course in courses]
+      
+      if (row_number == student_to_csv_rows_dict[student]):
+        assignment_writer.writerow(row + assignments)
+      else:
+        assignment_writer.writerow(row)
