@@ -10,12 +10,12 @@ obj = LinExpr()
 
 credit_cap = 4
 
-priority_1 = 4
-priority_2 = 3
+priority_1 = 8
+priority_2 = 4
 priority_3 = 2
 priorities = {"CS PhD": priority_1, "CS MS": priority_1, "TSB PhD": priority_1, "CSLS PhD": priority_1, "CE PhD": priority_1, 
-              "CE MS": priority_2, "MSR MS": priority_2, "MSR MSR": priority_2, "Robotics	MS": priority_2, "Robotics	MSR": priority_2, "MS Robotics MS Robotics": priority_2,
-              "MIST": priority_3, "EE MS": priority_3, "EE PhD": priority_3, "MSIT MSIT": priority_3}
+              "CE MS": priority_2, "MSR MS": priority_2, "MSR MSR": priority_2, "Robotics	MS": priority_2, "Robotics	MSR": priority_2,
+              "MSIT": priority_3, "EE MS": priority_3, "EE PhD": priority_3, "MSIT MSIT": priority_3}
 
 student_to_courses_dict = {}
 student_to_vars_dict = {}
@@ -25,7 +25,6 @@ student_to_degree_dict = {}
 course_to_students_dict = {}
 course_to_MS_students_dict = {}
 course_capacities = {}
-course_MS_capacities = {}
 dummy_vars = []
 
 course_stats = {}
@@ -63,8 +62,7 @@ with open('win22-course-data.csv', newline='') as csvfile:
     if (row[0] == "SIS Number"): # skip header row
       continue
     course = row[5]
-    course_capacities[course] = int(row[1])
-    course_MS_capacities[course] = int(row[2][:-1])/100 * course_capacities[course]
+    course_capacities[course] = int(row[2][:-1])/100 * int(row[1])
     
 
 with open('win22-requests-anon.csv', newline='') as csvfile:
@@ -137,13 +135,19 @@ with open('win22-requests-anon.csv', newline='') as csvfile:
     course_vars = [model.getVarByName(student + "_" + course) for student in this_course_potential_students]
     course_MS_vars = [model.getVarByName(student + "_" + course) for student in this_course_potential_MS_students]
     model.addConstr(sum(course_vars) <= course_capacities[course]) # course enrollment capacity constraint
-    model.addConstr(sum(course_MS_vars) <= course_MS_capacities[course]) # course MS enrollment capacity constraint
   
-  model.addConstr(sum(dummy_vars) <= 0.08 * len(dummy_vars)) # controlling how lax the fairness constraint is
+  model.addConstr(sum(dummy_vars) <= 0.185 * len(dummy_vars)) # controlling how lax the fairness constraint is
     
 model.setObjectiveN(obj, 0, 1)
 model.ModelSense = GRB.MAXIMIZE
 model.optimize()
+
+with open('course_enrollments.csv', 'w', newline='') as enrollment:
+  enrollment_writer = csv.writer(enrollment, delimiter=',', quotechar='|')
+  enrollment_writer.writerow(["course", "# of students enrolled", "course capacity"])
+  for course in course_to_students_dict:
+    student_assignment = [model.getVarByName(student + "_" + course).x for student in course_to_students_dict[course]]
+    enrollment_writer.writerow([course, sum(student_assignment), course_capacities[course]])
 
 with open('win22-requests-anon.csv', newline='') as csvfile, open('assignments.csv', 'w', newline='') as assignments_file:
   student_courses_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -152,15 +156,14 @@ with open('win22-requests-anon.csv', newline='') as csvfile, open('assignments.c
   for row in student_courses_reader:
     row_number += 1
     if (row_number == 0):
-      assignment_writer.writerow(row + ["got first choice?", "got second choice?", "got third choice?", "got fourth choice?", "got fifth choice?"])
+      assignment_writer.writerow(row + ["# of courses gotten", "got first choice?", "got second choice?", "got third choice?", "got fourth choice?", "got fifth choice?"])
     else:
       student = row[0]
       if (student not in student_to_courses_dict): continue
       courses = student_to_courses_dict[student]
-      vars = [model.getVarByName(student + "_" + course) for course in courses]
       assignments = [int(model.getVarByName(student + "_" + course).x) for course in courses]
       
       if (row_number == student_to_csv_rows_dict[student]):
-        assignment_writer.writerow(row + assignments)
+        assignment_writer.writerow(row + [sum(assignments)] + assignments)
       else:
         assignment_writer.writerow(row)
